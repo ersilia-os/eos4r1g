@@ -1,6 +1,6 @@
 Identifier: eos4r1g
 Slug: entry-classifier
-Status: In progress
+Status: Ready
 Title: Penetration in gram-negative bacteria
 Description: The model uses the data used to create the Entry rules (Richter et 
   al, 2017) to predict the probability that a molecule permeates across 
@@ -36,6 +36,18 @@ Publication: https://www.nature.com/articles/nature22308
 Source Code: https://github.com/HergenrotherLab/GramNegAccum
 License: GPL-3.0-or-later
 Incorporation Date: '2025-12-27'
+Last Packaging Date: '2025-12-27'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4r1g.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos4r1g
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 2.0
 Environment Size: 1916.0
+Image Size: 1942.48
+Computational Performance 1: 33.43
+Computational Performance 2: 23.51
+Computational Performance 3: 28.3
+Computational Performance 4: 127.92
+Computational Performance 5: 569.12
