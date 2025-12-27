@@ -36,3 +36,6 @@ Publication: https://www.nature.com/articles/nature22308
 Source Code: https://github.com/HergenrotherLab/GramNegAccum
 License: GPL-3.0-or-later
 Incorporation Date: '2025-12-27'
+S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4r1g.zip
+Model Size: 2.0
+Environment Size: 1916.0
