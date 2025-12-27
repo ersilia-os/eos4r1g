@@ -2,8 +2,7 @@
 
 The model uses the data used to create the Entry rules (Richter et al, 2017) to predict the probability that a molecule permeates across gram-negative membranes. The classifier has been trained using the classification from the original publication into Accumulation class High (Active, or 1) and Low (Inactive, or 0). After cleaning and combining the different datasets, we have 280 molecules of which 107 are labelled as high accumulators in E.coli.
 
-This model was incorporated on 2025-12-27.
-
+This model was incorporated on 2025-12-27.Last packaged on 2025-12-27.
 
 ## Information
 ### Identifiers
@@ -35,12 +34,19 @@ Below are the **Output Columns** of the model:
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `Internal`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos4r1g](https://hub.docker.com/r/ersiliaos/eos4r1g)
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4r1g.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4r1g.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `2`
 - **Environment Size (Mb):** `1916`
+- **Image Size (Mb):** `1942.48`
 
+**Computational Performance (seconds):**
+- 10 inputs: `33.43`
+- 100 inputs: `28.3`
+- 10000 inputs: `569.12`
 
 ### References
 - **Source Code**: [https://github.com/HergenrotherLab/GramNegAccum](https://github.com/HergenrotherLab/GramNegAccum)
