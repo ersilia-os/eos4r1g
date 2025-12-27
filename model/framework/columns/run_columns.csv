@@ -1,1 +1,2 @@
 name,type,direction,description
+entry_proba,float,high,Probability of entering inside gram-negative bacteria
