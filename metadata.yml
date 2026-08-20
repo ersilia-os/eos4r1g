@@ -2,7 +2,13 @@ Identifier: eos4r1g
 Slug: entry-classifier
 Status: Ready
 Title: Penetration in gram-negative bacteria
-Description: Estimates the likelihood that a compound accumulates inside Gram-negative bacteria, the barrier that keeps most antibacterial chemistry from reaching its target. Richter and colleagues measured accumulation in Escherichia coli for over 180 diverse compounds and found the determinants differed from the polarity and weight heuristics inherited from retrospective studies. Their dataset underpins this classifier. Accumulation was measured in E. coli, so extrapolation to other Gram-negative species is not established.
+Description: The model uses the data used to create the Entry rules (Richter et 
+  al, 2017) to predict the probability that a molecule permeates across 
+  gram-negative membranes. The classifier has been trained using the 
+  classification from the original publication into Accumulation class High 
+  (Active, or 1) and Low (Inactive, or 0). After cleaning and combining the 
+  different datasets, we have 280 molecules of which 107 are labelled as high 
+  accumulators in E.coli.
 Deployment:
   - Local
 Source: Local
@@ -16,7 +22,7 @@ Output:
   - Score
 Output Dimension: 1
 Output Consistency: Fixed
-Interpretation: Probability that a compound accumulates inside Gram-negative bacteria.
+Interpretation: Probability of entering gram negative bacteria
 Tag:
   - Antimicrobial activity
   - ESKAPE
