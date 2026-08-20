@@ -1,6 +1,6 @@
 # Penetration in gram-negative bacteria
 
-The model uses the data used to create the Entry rules (Richter et al, 2017) to predict the probability that a molecule permeates across gram-negative membranes. The classifier has been trained using the classification from the original publication into Accumulation class High (Active, or 1) and Low (Inactive, or 0). After cleaning and combining the different datasets, we have 280 molecules of which 107 are labelled as high accumulators in E.coli.
+Estimates the likelihood that a compound accumulates inside Gram-negative bacteria, the barrier that keeps most antibacterial chemistry from reaching its target. Richter and colleagues measured accumulation in Escherichia coli for over 180 diverse compounds and found the determinants differed from the polarity and weight heuristics inherited from retrospective studies. Their dataset underpins this classifier. Accumulation was measured in E. coli, so extrapolation to other Gram-negative species is not established.
 
 This model was incorporated on 2025-12-27.Last packaged on 2025-12-27.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2025-12-27.Last packaged on 2025-12-27.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of entering gram negative bacteria
+- **Interpretation:** Probability that a compound accumulates inside Gram-negative bacteria.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
@@ -56,7 +56,7 @@ Below are the **Output Columns** of the model:
 - **Ersilia Contributor:** [GemmaTuron](https://github.com/GemmaTuron)
 
 ### License
-This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [GPL-3.0-or-later](LICENSE) license.
+This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [None](LICENSE) license.
 
 **Notice**: Ersilia grants access to models _as is_, directly from the original authors, please refer to the original code repository and/or publication if you use the model in your research.
 
