@@ -1,6 +1,6 @@
 Identifier: eos4r1g
 Slug: entry-classifier
-Status: Ready
+Status: In maintenance
 Title: Penetration in gram-negative bacteria
 Description: The model uses the data used to create the Entry rules (Richter et 
   al, 2017) to predict the probability that a molecule permeates across 
