@@ -1,6 +1,6 @@
 # Penetration in gram-negative bacteria
 
-The model uses the data used to create the Entry rules (Richter et al, 2017) to predict the probability that a molecule permeates across gram-negative membranes. The classifier has been trained using the classification from the original publication into Accumulation class High (Active, or 1) and Low (Inactive, or 0). After cleaning and combining the different datasets, we have 280 molecules of which 107 are labelled as high accumulators in E.coli.
+Estimates the probability that a compound accumulates inside Gram-negative bacteria, the barrier that keeps most antibacterial chemistry from reaching its target. Richter and colleagues measured accumulation in Escherichia coli for over 180 diverse compounds and sorted them into high and low accumulators. Ersilia cleaned and combined those datasets into 280 molecules, 107 of them high accumulators, and fitted a binary classifier with its LazyQSAR package. Accumulation was measured only in E. coli, so other Gram-negative species are an extrapolation.
 
 This model was incorporated on 2025-12-27.Last packaged on 2025-12-27.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2025-12-27.Last packaged on 2025-12-27.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of entering gram negative bacteria
+- **Interpretation:** Probability of being a high accumulator in Escherichia coli, as labelled in the original accumulation measurements.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
