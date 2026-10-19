@@ -14,7 +14,7 @@ This model was incorporated on 2025-12-27.Last packaged on 2025-12-27.
 - **Subtask:** `Activity prediction`
 - **Biomedical Area:** `Antimicrobial resistance`
 - **Target Organism:** `Escherichia coli`
-- **Tags:** `E.coli`, `ESKAPE`
+- **Tags:** `Antimicrobial activity`, `ESKAPE`, `Permeability`
 
 ### Input
 - **Input:** `Compound`
