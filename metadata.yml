@@ -1,6 +1,6 @@
 Identifier: eos4r1g
 Slug: entry-classifier
-Status: In maintenance
+Status: Ready
 Title: Penetration in gram-negative bacteria
 Description: Estimates the probability that a compound accumulates inside 
   Gram-negative bacteria, the barrier that keeps most antibacterial chemistry 
@@ -40,7 +40,7 @@ Source Code: https://github.com/HergenrotherLab/GramNegAccum
 License: None
 Contributor: GemmaTuron
 Incorporation Date: '2025-12-27'
-Last Packaging Date: '2025-12-27'
+Last Packaging Date: '2026-10-19'
 Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4r1g.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos4r1g
@@ -49,9 +49,9 @@ Docker Architecture:
   - ARM64
 Model Size: 2.0
 Environment Size: 6436.0
-Image Size: 1942.48
-Computational Performance 1: 33.43
-Computational Performance 2: 23.51
-Computational Performance 3: 28.3
-Computational Performance 4: 127.92
-Computational Performance 5: 569.12
+Image Size: 6497.4
+Computational Performance 1: 31.53
+Computational Performance 2: 23.08
+Computational Performance 3: 25.99
+Computational Performance 4: 102.03
+Computational Performance 5: 460.84
