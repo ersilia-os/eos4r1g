@@ -2,7 +2,7 @@
 
 Estimates the probability that a compound accumulates inside Gram-negative bacteria, the barrier that keeps most antibacterial chemistry from reaching its target. Richter and colleagues measured accumulation in Escherichia coli for over 180 diverse compounds and sorted them into high and low accumulators. Ersilia cleaned and combined those datasets into 280 molecules, 107 of them high accumulators, and fitted a binary classifier with its LazyQSAR package. Accumulation was measured only in E. coli, so other Gram-negative species are an extrapolation.
 
-This model was incorporated on 2025-12-27.Last packaged on 2026-10-19.
+This model was incorporated on 2025-12-27.Last packaged on 2026-10-27.
 
 ## Information
 ### Identifiers
@@ -41,12 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `7`
 - **Environment Size (Mb):** `7514`
-- **Image Size (Mb):** `6497.4`
+- **Image Size (Mb):** `7369.79`
 
 **Computational Performance (seconds):**
-- 10 inputs: `31.53`
-- 100 inputs: `25.99`
-- 10000 inputs: `460.84`
+- 10 inputs: `37.41`
+- 100 inputs: `31.43`
+- 10000 inputs: `665.16`
 
 ### References
 - **Source Code**: [https://github.com/HergenrotherLab/GramNegAccum](https://github.com/HergenrotherLab/GramNegAccum)
