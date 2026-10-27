@@ -23,12 +23,12 @@ This model was incorporated on 2025-12-27.Last packaged on 2026-10-19.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of being a high accumulator in Escherichia coli, as labelled in the original accumulation measurements.
+- **Interpretation:** Rank score of accumulation inside Escherichia coli calibrated against the Ersilia reference library of 50K compounds. A score above 0.65 beats 99% of that library. Trained on 107 high accumulators against 173 low accumulators.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| entry_proba | float | high | Probability of entering inside gram-negative bacteria |
+| entry_rank | float | high | Rank score of the compound's predicted accumulation inside Escherichia coli. Calibrated against 50K compounds from the Ersilia reference library so that a score of 0.65 is better than 99% of them. Recommended threshold: 0.65. |
 
 
 ### Source and Deployment
