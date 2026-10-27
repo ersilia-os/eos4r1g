@@ -1,2 +1,2 @@
 name,type,direction,description
-entry_proba,float,high,Probability of entering inside gram-negative bacteria
+entry_rank,float,high,Rank score of the compound's predicted accumulation inside Escherichia coli. Calibrated against 50K compounds from the Ersilia reference library so that a score of 0.65 is better than 99% of them. Recommended threshold: 0.65.
