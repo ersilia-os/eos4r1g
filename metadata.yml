@@ -42,7 +42,7 @@ Source Code: https://github.com/HergenrotherLab/GramNegAccum
 License: None
 Contributor: GemmaTuron
 Incorporation Date: '2025-12-27'
-Last Packaging Date: '2026-10-27'
+Last Packaging Date: '2026-11-23'
 Release: v2.0.2
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4r1g.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos4r1g
@@ -52,9 +52,9 @@ Docker Architecture:
 Apptainer: https://models-sif.s3.eu-north-1.amazonaws.com/eos4r1g_v2.sif
 Model Size: 8.0
 Environment Size: 6954.0
-Image Size: 7369.79
-Computational Performance 1: 37.41
-Computational Performance 2: 27.62
-Computational Performance 3: 31.43
-Computational Performance 4: 143.18
-Computational Performance 5: 665.16
+Image Size: 3129.1
+Computational Performance 1: 30.87
+Computational Performance 2: 21.22
+Computational Performance 3: 23.0
+Computational Performance 4: 42.0
+Computational Performance 5: 121.85
