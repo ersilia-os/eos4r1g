@@ -1,6 +1,6 @@
 # Penetration in gram-negative bacteria
 
-Estimates the probability that a compound accumulates inside Gram-negative bacteria, the barrier that keeps most antibacterial chemistry from reaching its target. Richter and colleagues measured accumulation in Escherichia coli for over 180 diverse compounds and sorted them into high and low accumulators. Ersilia cleaned and combined those datasets into 280 molecules, 107 of them high accumulators, and fitted a binary classifier with its LazyQSAR package. Accumulation was measured only in E. coli, so other Gram-negative species are an extrapolation.
+Scores how likely a compound is to accumulate inside Gram-negative bacteria, the barrier that keeps most antibacterial chemistry from reaching its target. Richter and colleagues measured accumulation in Escherichia coli for over 180 diverse compounds and sorted them into high and low accumulators. Ersilia cleaned and combined those datasets into 280 molecules, 107 of them high accumulators, and fitted a LazyQSAR classifier with a five-fold out-of-fold AUROC of 0.94. Accumulation was measured only in E. coli, so other species are an extrapolation.
 
 This model was incorporated on 2025-12-27.
 Last packaged on 2026-10-27.
